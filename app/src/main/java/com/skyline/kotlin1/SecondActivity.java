@@ -56,7 +56,7 @@ public class SecondActivity extends AppCompatActivity {
 
     private void initData() {
         int size = data.size();
-        for (int i = 0; i < size + 50; i++) {
+        for (int i=size; i < size + 50; i++) {
             data.add("position"+i + "  java  activity ");
         }
         mAdapter.notifyDataSetChanged();
